@@ -1,0 +1,7 @@
+.idea
+.vscode
+/build
+
+# so, dll
+*.so
+*.dll
