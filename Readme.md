@@ -19,7 +19,7 @@ Build **demo** and run it with:
 
 ## Unix-like
 
-#### 1. Create ``JNI`` file in ``$PEOJECT_HOME/src/java`` of this project. ( [Demo]() ）
+#### 1. Create ``JNI`` file in ``$PEOJECT_HOME/src/java`` of this project. ( [Demo](https://github.com/JoverZhang/JNI-example/blob/master/src/java/com/ttmo/HelloJNI.java) ）
 
 #### 2. Generate ``header-file`` of ``JNI``.
 
@@ -30,7 +30,7 @@ cd src
 ./generate.sh ./java/com/ttmo/DemoLib.java
 ```
 
-#### 3. Add to ``$PROJECT_HOME/src/CMakeLists.txt`` ( [Demo]() )
+#### 3. Add to ``$PROJECT_HOME/src/CMakeLists.txt`` ( [Demo](https://github.com/JoverZhang/JNI-example/blob/master/src/CMakeLists.txt) )
 
 ```cmake
 add_library(
@@ -40,7 +40,7 @@ add_library(
 )
 ```
 
-#### 4. Implement interface. ( [Demo]()) )
+#### 4. Implement interface. ( [Demo](https://github.com/JoverZhang/JNI-example/blob/master/src/com_ttmo_HelloJNI.cc)) )
 
 > Omitted here.
 
