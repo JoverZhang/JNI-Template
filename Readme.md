@@ -1,4 +1,4 @@
-# JNI(Java Native Interface) Example
+# JNI(Java Native Interface) Template
 
 ### Environmental dependencies
 
